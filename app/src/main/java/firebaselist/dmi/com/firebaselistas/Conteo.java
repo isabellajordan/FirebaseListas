@@ -29,6 +29,8 @@ public class Conteo extends AppCompatActivity {
         btn_firmar1= findViewById(R.id.btn_firmar1);
         btn_firmar2= findViewById(R.id.btn_firmar2);
 
+        //
+
         db= FirebaseDatabase.getInstance();
 
         //sacar porcentaje de cuántos firmaron
